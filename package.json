@@ -1,0 +1,27 @@
+{
+  "name": "vue-webapp",
+  "version": "1.0.0",
+  "description": "vue-webapp",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "build:test": "",
+    "build:prod": "webpack --progress --config build/webpack.prod.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMsnow/vue-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMsnow/vue-webapp/issues"
+  },
+  "homepage": "https://github.com/JMsnow/vue-webapp#readme",
+  "devDependencies": {
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  }
+}
